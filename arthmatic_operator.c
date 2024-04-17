@@ -13,7 +13,5 @@ void main()
  printf("%d * %.2f = %.2f\n",a,b,ans);
  ans=a/b;
  printf("%d / %.2f = %.2f\n",a,b,ans);
- 
- 
- 
+  
 }
