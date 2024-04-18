@@ -6,7 +6,7 @@ void main()
 {
  int num;
  printf("press num : ");
- scanf("%d",&num);
+ scanf("%d",&num);//5
  if(num==1)
  {
    printf("GOOD MORNING");
@@ -17,6 +17,10 @@ void main()
  }
  if(num==3)
  {
-    printf("GOOD EVEVMING");
+    printf("GOOD EVENING");
+ }
+ if(num>3)
+ {
+   printf("please enter num 1 ,2 or 3");
  }
 }
