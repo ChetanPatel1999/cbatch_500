@@ -15,6 +15,6 @@ void main()
  int num;
  printf("enter a num :");
  scanf("%d",&num);
- int res=factorial(num);
+ int res=factorial(num);// fuction call by value
  printf("factorial of %d = %d",num,res);
 }
