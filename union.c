@@ -1,7 +1,7 @@
 //structure example in c language
 #include<stdio.h>
 #include<string.h>
-struct pen
+union pen
 {
   char name[12];//
   int price;
@@ -9,8 +9,8 @@ struct pen
 };
 void main()
 {
-  struct pen p1,p2,p3;
-  printf("size of p1 : %d\n",sizeof(p1));//20
+  union pen p1,p2,p3;
+  printf("size of p1 : %d\n",sizeof(p1));//12
   strcpy(p1.name,"cello");
   p1.price=5;
   p1.rating=3.4;
