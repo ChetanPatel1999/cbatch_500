@@ -5,8 +5,9 @@
 void main()
 {
    FILE *ptr;
-   ptr=fopen("abc.txt","w");
+   ptr=fopen("aaa.txt","a");// append mode
    fprintf(ptr,"hi this is my frist file handlig code\n");
-   fprintf(ptr,"this is my second syntax in file");
+   fprintf(ptr,"this is my second syntax in file\n");
+   fprintf(ptr,"this is my third line\n");
    fclose(ptr);
 }
